@@ -12,7 +12,6 @@ const char* ssid = "Phantom Surge";
 const char* password = "nexusflux";  
 
 WiFiClient  client;
-
 unsigned long myChannelNumber = 1;
 const char * myWriteAPIKey = "18S8UGKMAB8NEV6V";
 unsigned long lastTime = 0;
