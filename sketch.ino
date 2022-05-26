@@ -1,4 +1,4 @@
-#define USE_ARDUINO_INTERRUPTS true
+﻿#define USE_ARDUINO_INTERRUPTS true
 #include <PulseSensorPlayground.h>
 #include <WiFi.h>
 #include <ThingSpeak.h>
@@ -9,8 +9,6 @@
 const int PulseWire=33;
 const int LED13=2;
 int Threshold=3000;
-
-
 const char* ssid = "Phantom Surge"; 
 const char* password = "nexusflux";  
 
