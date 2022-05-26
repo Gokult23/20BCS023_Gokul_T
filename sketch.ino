@@ -5,7 +5,6 @@
 #define ADC_VREF_mV    3300.0 // in millivolt
 #define ADC_RESOLUTION 4096.0
 #define PIN_LM35       32
-
 const int PulseWire=33;
 const int LED13=2;
 int Threshold=3000;
